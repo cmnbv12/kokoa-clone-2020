@@ -170,14 +170,15 @@
     outline: none;
   }
 
-  .reply: .reply__column:first-child,
-  .reply: .fa-smile-with, 
-  .reply: button {
+  .reply .reply__column:first-child,
+  .reply .fa-smile-with, 
+  .reply button {
       transition: opacity 0.3s ease-in-out;
   }
 
   .reply:focus-within .reply__column:first-child,
-  .reply:focus-within .fa-smile-with, .reply:focus-within button {
+  .reply:focus-within .fa-smile-with, 
+  .reply:focus-within button {
       opacity: 0;
   }
 
